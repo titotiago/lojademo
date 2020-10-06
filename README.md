@@ -15,12 +15,19 @@ localhost:5000/products/ : Adiciona produto.
 
 Formato request:
 {
+
     title: String,
+    
     description: String,
+    
     value: String,
+    
     key: String,
+    
     imgUrl: String,
+    
     Stock: String
+
 }
 
 ## Available Scripts
