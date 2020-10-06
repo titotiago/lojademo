@@ -1,7 +1,13 @@
-Aplicação E-commerce em react.js + express + mongoDB.
+E-commerce application using react.js + express + mongoDB.
 
 ## Demo & screenshots
-![Alt Text](https://media.giphy.com/media/HQaYrMC5otvS6A4CYH/giphy.gif)
+![Video](https://media.giphy.com/media/HQaYrMC5otvS6A4CYH/giphy.gif)
+
+![Screenshot1](https://i.ibb.co/VCmVW2V/Sem-t-tulo.png)
+
+![Screenshot2](https://i.ibb.co/cyg3pHR/Sem-t-tulo2.png)
+
+![Screenshot3](https://i.ibb.co/G9Wf11C/Sem-t-tulo3.png)
 
 ## Routes API
 `GET`
@@ -14,10 +20,10 @@ localhost:5000/product/{key} : Returns a specific product.
 localhost:5000/product/{key} : Deletes a specific product.
 
 `POST`
-localhost:5000/products/ : Adds product.
+localhost:5000/products/ : Adds product. (Accepts array)
 
 Post product request format:
-{
+[{
 
     title: String,
     
@@ -31,7 +37,7 @@ Post product request format:
     
     Stock: String
 
-}
+}]
 
 ## Available Scripts
 
