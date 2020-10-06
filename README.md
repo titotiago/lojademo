@@ -3,7 +3,7 @@ Aplicação E-commerce em react.js + express + mongoDB.
 ## Rotas API
 `GET`
 localhost:5000/products/  : Retorna todos os produtos disponíveis.
-
+`GET`
 localhost:5000/product/{key} : Retorna produto específico baseado na chave.
 
 `DELETE`
