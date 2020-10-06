@@ -1,5 +1,10 @@
 E-commerce application using react.js + express + mongoDB.
 
+## How to run?
+Add your mongoDB credentials in line 24 at 'api/app.js/'
+
+Start the API and React app with npm.
+
 ## Demo & screenshots
 ![Video](https://media.giphy.com/media/HQaYrMC5otvS6A4CYH/giphy.gif)
 
