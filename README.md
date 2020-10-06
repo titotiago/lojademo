@@ -1,19 +1,22 @@
 Aplicação E-commerce em react.js + express + mongoDB.
 
-## Rotas API
+## Demo & screenshots
+![Alt Text](https://media.giphy.com/media/HQaYrMC5otvS6A4CYH/giphy.gif)
+
+## Routes API
 `GET`
-localhost:5000/products/  : Retorna todos os produtos disponíveis.
+localhost:5000/products/  : Returns all available products.
 
 `GET`
-localhost:5000/product/{key} : Retorna produto específico baseado na chave.
+localhost:5000/product/{key} : Returns a specific product.
 
 `DELETE`
-localhost:5000/product/{key} : Deleta produto específico baseado na chave
+localhost:5000/product/{key} : Deletes a specific product.
 
 `POST`
-localhost:5000/products/ : Adiciona produto.
+localhost:5000/products/ : Adds product.
 
-Formato request:
+Post product request format:
 {
 
     title: String,
