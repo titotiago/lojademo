@@ -1,4 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação E-commerce em react.js + express + mongoDB.
+
+## Rotas API
+GET
+localhost:5000/products/  : Retorna todos os produtos disponíveis;
+localhost:5000/product/{key} : Retorna produto específico baseado na chave;
+
+DELETE
+localhost:5000/product/{key} : Deleta produto específico baseado na chave;
+
+POST
+localhost:5000/products/ : Adiciona produto;
+Formato request:
+{
+    title: String,
+    description: String,
+    value: String,
+    key: String,
+    imgUrl: String,
+    Stock: String
+}
 
 ## Available Scripts
 
