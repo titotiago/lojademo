@@ -1,0 +1,111 @@
+.header-div{
+    position: sticky;
+    zoom:0.9;
+    top:0;
+    box-shadow: 0px 0px 0.3em rgb(0, 0, 0);
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-div:hover > .products-div{
+    opacity: 1;
+    top: 120px;
+}
+
+.search-input{
+    width: 40%;
+    margin: auto;
+
+}
+
+.logo-div{
+    cursor: pointer;
+    position: relative;
+}
+
+.btn{
+    height: 20px;
+    margin: auto;
+    margin-left:10px;
+}
+
+.search-bar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.searchbar-items{
+    height: fit-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin-right: 50px;
+}
+
+.searchbar-text{
+    transition-duration: 0.3s;
+    cursor: pointer;
+    color: rgb(90, 43, 4);
+    font-size: large;
+    padding:10px;
+    margin-top:40px;
+}
+
+.searchbar-text:hover{
+    transform: scale(1.1);
+}
+
+
+.products-div{
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    top:80px;
+    width: 100%;
+    transition: all 0.15s linear;
+    opacity: 0;
+    justify-content: center;
+    background-color: rgb(110, 0, 124);
+    overflow: hidden;
+}
+
+.tab-container{
+    display: flex;
+}
+
+.product-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    margin:0;
+}
+
+.header-text{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    padding:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:0;
+}
+
+.header-text:hover{
+    cursor: pointer;
+    background-color: rgb(255, 123, 0);
+    color:white;
+}
+
+@media screen and (max-width:960px){
+    .products-div{
+        top:-200px;
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+    }
+    .header-div{
+        
+    }
+}

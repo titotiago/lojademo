@@ -1,0 +1,33 @@
+.Info{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: center;
+    zoom:0.9;
+}
+.Card{
+    cursor: pointer;
+    width: fit-content;
+    background-color: white;
+    box-shadow: 2px 2px 0.4em rgb(77, 47, 69);
+    transition: all 0.25s ease-out;
+}
+
+.Cart{
+    transition:opacity 0.25s linear;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    font-weight: bolder;
+    background-color: orange;
+    width: 100%;
+    color: white;
+}
+
+.Card:hover{
+    transform:scale(1.08);
+}
+.Card:hover > .Cart{
+    opacity: 1;
+}

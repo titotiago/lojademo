@@ -1,0 +1,28 @@
+.admin-div{
+    justify-content: center;
+    padding:40px;
+    padding-right: 10;
+    display: grid;
+    width:100%;
+    height: fit-content;
+    background-color:rgb(255, 123, 0);
+    grid-template-columns: repeat(auto-fit,minmax(0rem,15rem));
+    grid-gap: 20px;
+}
+
+.add-product{
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 2px 2px 0.2em rgb(109, 4, 154);
+    text-align: center;
+    transition:all 0.25s ease-out;
+    background-color:  rgb(104, 21, 104);
+    color:white;
+    padding:10px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.add-product:hover{
+    transform: scale(1.08);
+}

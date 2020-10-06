@@ -1,0 +1,15 @@
+.product-page{
+    margin: 70px auto;
+    width: fit-content;
+    justify-content: space-around;
+    background: rgb(235, 233, 233);
+    display: flex;
+    box-shadow: 2px 5px 0.3em rgb(185, 183, 183);
+}
+
+.product-display{
+    margin: auto;
+    background: gray;
+    height: fit-content;
+}
+

@@ -1,0 +1,110 @@
+.main-content-div{
+    background-color:rgb(255, 255, 255);
+    height:fit-content;
+}
+.slideshow{
+    margin-top: 200px;
+    z-index: 0;
+    margin: auto;
+    margin-bottom: 40px;
+    width: fit-content;
+}
+
+.store-div{
+    margin: auto;
+    width: 98%;
+    box-shadow: inset 0 0 1em rgb(49, 24, 3);
+    background-color: rgb(104, 21, 104);
+    display: flex;
+}
+
+.divider{
+    width: 60%;
+    border-radius: 1px;
+    background-color:rgb(187, 187, 187);
+    margin-bottom: 40px;
+}
+
+.filters-div{
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 0.3em rgb(77, 46, 5);
+    padding:50px;
+    margin-left: 50px;
+    margin-right:20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    min-width: 300px;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    color:#000000fd;
+}
+
+.filters-div:hover{
+    transform: scale(1.02);
+}
+
+.cards-div{
+    padding:40px;
+    padding-right: 10;
+    display: grid;
+    width:100%;
+    grid-template-columns: repeat(auto-fit,minmax(0rem,15rem));
+    grid-gap: 20px;
+}
+
+.spinner-properties{
+    margin-top:10%;
+    margin-left:25%;
+}
+
+.products-name{
+    width: fit-content;
+    margin: 0 auto;
+    color: gray;
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+.footer{
+    padding:50px;
+    justify-content: space-around;
+    display: flex;
+    box-shadow: -2px 0px 1em black;
+    margin-top:50px;
+    height: fit-content;
+    background-color: black;
+}
+.footer-block{
+    max-width: 20%;
+}
+
+.footer-block h6{
+    max-width: 100%;
+    color: rgb(122, 122, 122);
+    text-align: center;
+}
+
+.footer-block p{
+    max-width: 100%;
+    color: rgb(122, 122, 122);
+    text-align: center;
+}
+
+@media screen and (max-width:960px){
+    .filters-div{
+        display: none;
+    }
+    .cards-div{
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+    }
+    .footer{
+        display: block;
+    }
+    .footer-block{
+        margin-bottom: 50px;
+        max-width: 100%;
+    }
+}
