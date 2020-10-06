@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://i.ibb.co/cr8DxZw/logo2.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">React E-commerce</h3>
 
 <div align="center">
 
