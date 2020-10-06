@@ -21,7 +21,7 @@ app.use('/products', productsRoute);
 
 
 //Connect to MongoDB
-mongoose.connect('mongodb+srv://Admin:brasil10@cluster0.avrwu.mongodb.net/Cluster0?retryWrites=true&w=majority',
+mongoose.connect('',
     { useNewUrlParser:true, useUnifiedTopology:true }, () =>{
     console.log('Conectado ao DB!')
 });
