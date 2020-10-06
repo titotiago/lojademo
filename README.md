@@ -1,3 +1,5 @@
+## Description
+
 E-commerce application using react.js + express + mongoDB.
 
 ## How to run?
